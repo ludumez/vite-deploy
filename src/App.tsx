@@ -27,7 +27,7 @@ function App() {
            
         <div>
         <b>Contact: </b>
-        <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg" className='Icon'></img> <a href= "mailto: name@email.com">Email</a> <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg" className='Icon'></img> <a href='https://www.linkedin.com/in/lukas-dumez-988a1a234/' target="_blank">LinkedIn</a>
+        <a className='aButton' href= "mailto: name@email.com">Email</a>  <a className='aButton' href='https://www.linkedin.com/in/lukas-dumez-988a1a234/' target="_blank">LinkedIn</a>
         </div>
             <p>
             Starting in 2014 I have been making video games one way or another for <b>over 10 years</b> now. 
@@ -58,9 +58,10 @@ function App() {
 
                 <p><b>February 2023 - October 2024</b></p> 
                 <p><b>Link:</b> <a href="https://anotherpint.williwawgames.com" target="_blank">Another Pint Webpage</a></p> 
+                <p><b>Link:</b> <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a></p> 
                 <p><b>What this is:</b> Another Pint is an open world managment game with big roleplaying elements, where all quests, characters and events are unique to each playtrough.</p>
                 <p><b>What I did: </b>
-                 <b>Developer</b> and later on <b>Lead the programming</b> effort. Took full ownership of the <b>Character Controller, NPC Generation, World Resource Generation, 
+                 <b>Developed</b> and later on <b>Lead the programming</b> effort. Took full ownership of the <b>Character Controller, NPC Generation, World Resource Generation, 
                 Buff and Debuff system, UI Menu system, Camera controlls and Player Movement</b>; and more.
                 As well as, mantained and polished the Build Mode and Quest and Dialogue 
                 System.
