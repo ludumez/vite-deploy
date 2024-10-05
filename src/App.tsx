@@ -5,8 +5,6 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid2';
-import RFTA from './Assets/RaceForTheArcticCaptura.jpg'
-import AnotherPint from './Assets/AnotherPint.jpg'
 import Email from './Assets/email.jpg'
 import LinkedIn from './Assets/linkedIn.jpg'
 
@@ -57,7 +55,6 @@ function App() {
                <Grid size="grow">
                <Item>
                 <h3>Another Pint</h3>
-               <img src={AnotherPint}></img>
 
                 <p><b>February 2023 - October 2024</b></p> 
                 <p><b>Link:</b> <a href="https://anotherpint.williwawgames.com" target="_blank">Another Pint Webpage</a></p> 
@@ -79,7 +76,6 @@ function App() {
                  <Grid size="grow">
                 <Item>
                 <h3>Race for the Arctic</h3>
-                <img src={RFTA}></img>
               <p><b>May 2022 - February 2023</b></p> 
               <p><b>Link:</b> <a href="https://episod.studio/games/race-for-the-arctic" target="_blank">Race For the Arctic Webpage</a></p> 
               <p><b>What this is:</b> Race for the Arctic is an inmersive narrative game about exploring the Artctic in the not so distant future.</p>
