@@ -52,7 +52,7 @@ function App() {
         </div>   <Box sx={{ flexGrow: 1 }}>
       <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                <Grid size="grow">
-               <Item>
+               <Item elevation={4}>
                 <h3>Another Pint</h3>
                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
 
@@ -74,7 +74,7 @@ function App() {
                 </Grid>
       
                  <Grid size="grow">
-                <Item>
+                <Item elevation={4}>
                 <h3>Race for the Arctic</h3>
                 <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/RaceForTheArcticCaptura.jpg"></img>
               <p><b>May 2022 - February 2023</b></p> 
@@ -95,7 +95,7 @@ function App() {
       <Box sx={{ flexGrow: 1 }}>
       <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                <Grid size="grow">
-               <Item>
+               <Item elevation={4}>
                 <h3>Freelance Developer</h3>
 
                 <p><b>June 2021 - May 2022</b></p> 
@@ -120,7 +120,7 @@ function App() {
       <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
                <Grid size="grow">
-               <Item>
+               <Item elevation={4}>
                 <h3>Paradise Marsh</h3>             
                 <p><b>February 2023 </b></p> 
                 <p><b>Link:</b> <a href="https://store.steampowered.com/app/1709170/Paradise_Marsh/" target="_blank">Store Link</a></p> 
@@ -142,7 +142,7 @@ function App() {
       <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
                <Grid size="grow">
-               <Item>                      
+               <Item >                      
                 <p><b>Lenguages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
                 <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Brain, Pen and Paper.</p>
                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>
