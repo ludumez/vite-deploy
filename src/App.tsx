@@ -5,7 +5,10 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid2';
-
+import RFTA from './assets/RaceForTheArcticCaptura.jpg'
+import AnotherPint from './assets/AnotherPint.jpg'
+import Email from './assets/email.jpg'
+import LinkedIn from './assets/linkedIn.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
@@ -27,7 +30,7 @@ function App() {
            
         <div>
         <b>Contact: </b>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" className='Icon'></img> <a href= "mailto: name@email.com">Email</a> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"  className='Icon'></img> <a href='https://www.linkedin.com/in/lukas-dumez-988a1a234/' target="_blank">LinkedIn</a>
+        <img src={Email} className='Icon'></img> <a href= "mailto: name@email.com">Email</a> <img src={LinkedIn}  className='Icon'></img> <a href='https://www.linkedin.com/in/lukas-dumez-988a1a234/' target="_blank">LinkedIn</a>
         </div>
             <p>
             Starting in 2014 I have been making video games one way or another for <b>over 10 years</b> now. 
@@ -54,6 +57,7 @@ function App() {
                <Grid size="grow">
                <Item>
                 <h3>Another Pint</h3>
+               <img src={AnotherPint}></img>
 
                 <p><b>February 2023 - October 2024</b></p> 
                 <p><b>Link:</b> <a href="https://anotherpint.williwawgames.com" target="_blank">Another Pint Webpage</a></p> 
@@ -75,6 +79,7 @@ function App() {
                  <Grid size="grow">
                 <Item>
                 <h3>Race for the Arctic</h3>
+                <img src={RFTA}></img>
               <p><b>May 2022 - February 2023</b></p> 
               <p><b>Link:</b> <a href="https://episod.studio/games/race-for-the-arctic" target="_blank">Race For the Arctic Webpage</a></p> 
               <p><b>What this is:</b> Race for the Arctic is an inmersive narrative game about exploring the Artctic in the not so distant future.</p>
