@@ -5,10 +5,10 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid2';
-import RFTA from './assets/RaceForTheArcticCaptura.jpg'
-import AnotherPint from './assets/AnotherPint.jpg'
-import Email from './assets/email.jpg'
-import LinkedIn from './assets/linkedIn.jpg'
+import RFTA from './src/assets/RaceForTheArcticCaptura.jpg'
+import AnotherPint from './src/assets/AnotherPint.jpg'
+import Email from './src/assets/email.jpg'
+import LinkedIn from './src/assets/linkedIn.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
