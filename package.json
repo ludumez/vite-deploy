@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://ludumez.github.io/vite-deploy/",
+  "homepage":"https://github.com/ludumez/vite-deploy",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
