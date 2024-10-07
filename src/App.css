@@ -43,3 +43,11 @@
 .Icon{  
   width: 20px;
  }
+ 
+ .grid-container {
+  display: grid;
+}
+
+.grid-container {
+  display: inline-grid;
+}

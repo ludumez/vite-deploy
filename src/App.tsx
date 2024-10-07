@@ -30,16 +30,18 @@ function App() {
         <a className='aButton' href= "mailto: name@email.com">Email</a>  <a className='aButton' href='https://www.linkedin.com/in/lukas-dumez-988a1a234/' target="_blank">LinkedIn</a>
         </div>
             <p>
-            Starting in 2014 I have been making video games one way or another for <b>over 10 years</b> now. 
-            Being fully self-taught, with a proven track of taking ownership and leading the production on anything code related to video game programming.
+            Since 2014, I have been actively involved in video game development in various capacities,
+             accumulating over<b> 10 years of experience</b>. Being entirely self-taught, I have consistently demonstrated the ability to take ownership of and<b> lead all
+              aspects of video game programming.</b>
             </p>
-            <p>   
-            I have a big passion for all video games, my dream is to work with a small passionate team on fun and polished video games.   
+            <p> 
+              I am deeply passionate about video games, and my goal is to work with a small, dedicated team to create fun, polished titles.
             </p> 
+              As a programmer, I take pride in my <b>self-sufficiency and problem-solving skills.</b>
+               My adaptability and enthusiasm for game development have afforded me the opportunity to work on incredible projects over the last four years, 
+               including <b>leading a team of programmers.</b> When collaborating within a team, I emphasize strong communication and cooperation, often taking the lead in 
+               providing technical support and facilitating clear communication between programmers and artists.
              <p> 
-            As a programmer, I take pride in my capacity of being  <b>self-sufficient</b> and figuring things out. 
-            My capacity to adapt and my passion in video games has given me the opportunity to work on some amazing projects, for the last <b>4 years</b>, and the chance to <b>lead</b> a team of programmers. 
-            When working in a team, I pride myself in my efforts to <b>collaborate and communicate</b>, taking charge in technical assistance and communication between programmers and artists.
           </p>  
        </div> 
        
@@ -59,13 +61,13 @@ function App() {
                 <p><b>February 2023 - October 2024</b></p> 
                 <p><b>Link:</b> <a href="https://anotherpint.williwawgames.com" target="_blank">Another Pint Webpage</a></p> 
                 <p><b>Link:</b> <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a></p> 
-                <p><b>What this is:</b> Another Pint is an open world managment game with big roleplaying elements, where all quests, characters and events are unique to each playtrough.</p>
+                <p><b>What this is:</b> Another Pint is an open-world management game with significant role-playing elements, where all quests, characters, and events are unique to each playthrough.</p>
                 <p><b>What I did: </b>
-                 <b>Developed</b> and later on <b>Lead the programming</b> effort. Took full ownership of the <b>Character Controller, NPC Generation, World Resource Generation, 
-                Buff and Debuff system, UI Menu system, Camera controlls and Player Movement</b>; and more.
-                As well as, mantained and polished the Build Mode and Quest and Dialogue 
-                System.
-                Also took ownership developing and unifying of most <b>shaders</b> in the game.</p>
+                Developed and later led the programming efforts.
+                 Took full ownership of the character controller, NPC generation, world resource generation, 
+                 buff and debuff systems, UI menu system, camera controls, and player movement. Additionally, 
+                 I maintained and refined the build mode, quest, and dialogue systems. I was also responsible for developing and standardizing most of the shaders in the game.
+                </p>
                 <p><b>Studio:</b> Williwaw AED. Sofia, Bulgaria.</p>
                 <p><b>Platforms:</b> PC | Linux</p>
                   <p><b>Team size:</b> 8 members. Lead for 3 programmers.</p>
@@ -80,9 +82,9 @@ function App() {
                 <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/RaceForTheArcticCaptura.jpg"></img>
               <p><b>May 2022 - February 2023</b></p> 
               <p><b>Link:</b> <a href="https://episod.studio/games/race-for-the-arctic" target="_blank">Race For the Arctic Webpage</a></p> 
-              <p><b>What this is:</b> Race for the Arctic is an inmersive narrative game about exploring the Artctic in the not so distant future.</p>
+              <p><b>What this is:</b>  Race for the Arctic is an immersive narrative game about exploring the Arctic in the near future.</p>
               <p><b>What I did: </b>
-              Developer and later on sole developer, in charge of developing inmersive: Camera Controlls, Interaction Systems and various Movement Systems.
+              Initially a developer, I later became the sole developer, responsible for creating immersive camera controls, interaction systems, and various movement systems.
               </p>
               <p><b>Studio:</b> Episod Studio. London, United Kingdom.</p>
               <p><b>Platforms:</b> PC</p>
@@ -101,9 +103,9 @@ function App() {
 
                 <p><b>June 2021 - May 2022</b></p> 
                 <p><b>What this is:</b> Freelancer for around 25 different clients.</p>
-                <p><b>What I did: </b> In charge of developing specific systems for a wide arrange of clients. 
-                With a main focus of translating game systems and ideas into design documents, implementing them in Unity and 
-                documenting them for future use.
+                <p><b>What I did: </b> Responsible for developing specific systems for a wide range of clients.
+                 Primarily focused on translating game systems and concepts into design documents, 
+                implementing them in Unity, and providing thorough documentation for future use.
                 </p>
                 <p><b>Platforms:</b> PC | Linux | Android</p>
                 <p><b>Tools:</b> Unity, Unity Input System, Tweener, Git, Visual Studio, Blender.</p>
@@ -118,6 +120,7 @@ function App() {
        <div>
         <h3>  Others.</h3>      
        </div>
+
       <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
                <Grid size="grow">
@@ -154,6 +157,8 @@ function App() {
 
       </Grid>
       </Box>
+      
+    
     </>
   )
 }
