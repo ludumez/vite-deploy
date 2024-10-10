@@ -126,7 +126,7 @@ function App() {
                <Grid size="grow">
                <Item >                      
                 <p><b>Lenguages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
-                <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Photon, Firebase, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
+                <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>
        </Item>
        </Grid>   
