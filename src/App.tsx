@@ -61,6 +61,7 @@ function App() {
                 <p><b>February 2023 - October 2024</b></p> 
                 <p><b>Link:</b> <a href="https://anotherpint.williwawgames.com" target="_blank">Another Pint Webpage</a></p> 
                 <p><b>Link:</b> <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a></p> 
+                <p><b>Link:</b> <a href="https://youtu.be/98fF0xm_FTg" target="_blank">Video Explanation</a></p> 
                 <p><b>What this is:</b> Another Pint is an open-world management game with significant role-playing elements, where all quests, characters, and events are unique to each playthrough.</p>
                 <p><b>What I did: </b>
                 Developed and later led the programming efforts.
@@ -108,37 +109,14 @@ function App() {
                 implementing them in Unity, and providing thorough documentation for future use.
                 </p>
                 <p><b>Platforms:</b> PC | Linux | Android</p>
-                <p><b>Tools:</b> Unity, Unity Input System, Tweener, Git, Visual Studio, Blender.</p>
-
+                <p><b>Tools:</b> Unity, Unity Input System, Tweener, Git, Visual Studio, Blender, Firebase, Photon, Android.</p>
                 </Item>
                 </Grid>     
                
       </Grid>
       </Box>  
+
       <p> </p>
-        <Divider variant="middle"/>
-       <div>
-        <h3>  Others.</h3>      
-       </div>
-
-      <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-               <Grid size="grow">
-               <Item elevation={4}>
-                <h3>Paradise Marsh</h3>             
-                <p><b>February 2023 </b></p> 
-                <p><b>Link:</b> <a href="https://store.steampowered.com/app/1709170/Paradise_Marsh/" target="_blank">Store Link</a></p> 
-                <p><b>What I did: </b>
-                Helped with the localization from English to Spanish.</p>
-                <p><b>Platforms:</b> PC </p>
-                <p><b>Tools:</b> Excel, Brain.</p>
-
-       </Item>
-       </Grid>     
-
-      </Grid>
-      </Box>
-       <p> </p>
         <Divider variant="middle"/>
        <div>
         <h3> Stats.</h3>      
@@ -148,14 +126,137 @@ function App() {
                <Grid size="grow">
                <Item >                      
                 <p><b>Lenguages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
-                <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Brain, Pen and Paper.</p>
+                <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Photon, Firebase, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>
-                <p>12 released games on Itch.io, 5 removed games from Itch.io</p>
-
        </Item>
-       </Grid>     
-
+       </Grid>   
       </Grid>
+      </Box>     
+
+      <p> </p>
+        <Divider variant="middle"/>
+       <div>
+        <h3>  Others.</h3>      
+       </div>
+
+      <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+            <Grid size={{ xs: 6, md: 12 }}>
+                <Item elevation={4}>
+                <h3>Paradise Marsh</h3>             
+                <p><b>February 2023 </b></p> 
+                <p><b>Link:</b> <a href="https://store.steampowered.com/app/1709170/Paradise_Marsh/" target="_blank">Store Link</a></p> 
+                <p><b>What I did: </b>
+                Helped with the localization from English to Spanish.</p>
+                <p><b>Platforms:</b> PC </p>
+                <p><b>Tools:</b> Excel, Brain.</p>
+                </Item>
+            </Grid>
+          <Grid size={{ xs: 6, md: 4 }}>
+          <Item > 
+                <h3>The Fisher</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/TheFisher.jpg"></img>
+                <p><b>What it is:</b> A small game about fishing humans and giving them to fish.</p>
+                <p><b>Tools:</b> Unity 3D, C#, Unity Input System.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Sisypus(h)</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/Sisypush.jpg"></img>
+                <p><b>What it is:</b>A small abstract game about pushing a boulder to the unreachable top of  a mountain.</p>
+                <p><b>Tools:</b> Unity 2D, C#, Shadregraph.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>G!ONG</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/G!ONG.jpg"></img>
+                <p><b>What it is:</b> A game about making balls bounce and make noise.</p>
+                <p><b>Tools:</b> Unity 2D, C#, FMod.</p>
+                </Item>
+          </Grid>    
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Scopa</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/Scopa.jpg"></img>
+                <p><b>What it is:</b> A virutal version of the classic Italian card game Scopa</p>
+                <p><b>Tools:</b> Unity 2D, C#, Input System.</p>
+                </Item>
+          </Grid>  
+        <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Inventory System</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/InventorySystem.jpg"></img>
+                <p><b>What it is:</b> An inventory system made to be easily modified and to feel polished.</p>
+                <p><b>Tools:</b> Unity 2D, C#, DoTween.</p>
+                </Item>
+          </Grid>     
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Fish Match</h3> 
+                <p><b>What it is:</b> A simple match making game made for my brother in a day.</p>
+                <p><b>Tools:</b> Unity 2D, DoTween, C#.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Retro Online Ping Pong</h3> 
+                <p><b>What it is:</b> A ping pong game rendered in ASCII characters. With accounts and online multiplayer support.</p>
+                <p><b>Tools:</b> Unity, C#, Android, Firebase, Photon.</p>
+                </Item>
+          </Grid>  
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Knight Survivor</h3> 
+                <p><b>What it is:</b> A vampire survivor clone. Made to practice abstract design patterns.</p>
+                <p><b>Tools:</b> Unity 3D, C#, DoTween, Input System.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Helix Jump Clone</h3> 
+                <p><b>What it is:</b> A Helix Jump clone made to practice system driven map design.</p>
+                <p><b>Tools:</b> Unity, C#, Shader Graph.</p>
+                </Item>
+          </Grid>    
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>What I Do For Love</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/WhatIDoForLove.jpg"></img>
+                <p><b>What it is:</b> A small meditation were I try to process my feeling about a past relationship.</p>
+                <p><b>Tools:</b> Unity 3D, C#.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Crafting System for Unity</h3> 
+                <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CraftingSystem.jpg"></img>
+                <p><b>What it is:</b> A crafting system.</p>
+                <p><b>Tools:</b> Unity 2D, C#.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Fishy Paradise</h3> 
+                <p><b>What it is:</b> A game where you are stuck in an island and need to collect some fish to survive.</p>
+                <p><b>Tools:</b> Unity 3D, C#, FMod.</p>
+                </Item>
+          </Grid>   
+          <Grid size={{ xs: 6, md: 4 }}>
+                <Item > 
+                <h3>Cat Golf</h3> 
+                <p><b>What it is:</b> A game about getting yourself or some cats to a gold hole.</p>
+                <p><b>Tools:</b> Unity 3D, C#, unity experimental navigation feature.</p>
+                </Item>
+          </Grid>   
+
+
+          </Grid>
+
+
+
+
       </Box>
       
     
