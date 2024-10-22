@@ -37,7 +37,7 @@ return (
        <div className='Card'>   
              <h2>Lead Systems Programmer</h2>
              <h3>Another Pint</h3>
-             <p className='italic'>February 2023 - May October 2024</p>
+             <p className='italic'>February 2023 - October 2024</p>
              <Grid container>
                    <Grid size={{ xs: 6, md: 6 }}>           
                          <div className="CardBody">
