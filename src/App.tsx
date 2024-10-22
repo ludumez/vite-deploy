@@ -73,7 +73,7 @@ return (
  
      
                          <div className="CardBody">
-                               <p> Race for the Arctic is an immersive narrative game about exploring the Arctic in the near future.  </p>
+                               <p>Developed by <b>Episod Studio</b>, Race for the Arctic is an immersive narrative game about exploring the Arctic in the near future.  </p>
                                <p><b>Team size:</b> 3</p>
                                <p><b>What I worked on: </b></p>
                                <ul>
