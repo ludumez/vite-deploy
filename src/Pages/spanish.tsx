@@ -29,15 +29,15 @@ export function Spanish() {
                          <img className='SmallImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/ProfilePicture.JPG"></img> 
                    </Grid>
                    <Grid size={{ xs: 8, md: 8 }}>
-                         <h1> Lukas Dumez - System Developer </h1> 
+                         <h1> Lukas Dumez - Programador de sistemas en Unity </h1> 
                    </Grid>
              </Grid> 
        <div>
-             <h2>Hello! I'm Lukas.</h2>
+             <h2>Hola!  Soy Lukas.</h2>
              <br></br>
             <p>
-             I'm a systems programmer with (almost) 4 years of experience  with a background in environmental science.
-             My passion are videogames and variety is my flavour. I love fishing in games.
+                Soy un programador de sistemas con (casi) 4 años de experiencia. Mi pasión son los videojuegos y su variedad mi estilo.
+                Me encanta la pesca en los videojuegos.
              </p>
        </div>
        <br></br>
@@ -45,29 +45,29 @@ export function Spanish() {
         <Divider variant="middle"/>
        <p> </p>
        <div className='Separator'>
-             <h2 className='Offset'>Projects</h2>
+             <h2 className='Offset'>Proyectos</h2>
        </div>              
        <p> </p>
         <Divider variant="middle"/>
        <div className='Card'>   
-             <h2>Lead Systems Programmer</h2>
+             <h2>Desarrollador principal.</h2>
              <h3>Another Pint</h3>
-             <p className='italic'>February 2023 - October 2024</p>
+             <p className='italic'>Febrero 2023 - Octubre 2024</p>
              <Grid container>
                    <Grid size={{ xs: 6, md: 6 }}>           
                          <div className="CardBody">
-                               <p> Developed by <b>Williwaw Games</b>, Another Pint is a dynamic management game where you get to build and run your own medieval tavern. Tasked with taking over a barebones shack, where you take it is up to you.  </p>
-                               <p><b>Team size:</b> 9</p>
-                               <p><b>What I worked on: </b></p>
+                               <p>Desarrollado por <b>Williwaw Games</b>, Another Pint es un juego de gestión de recursos dinámico donde construirás y manejaras tu propia taverna. Encargado con manejar una cabaña ruinosa, tu decides tu destino.  </p>
+                               <p><b>Tamaño de equipo:</b> 9</p>
+                               <p><b>En que trabajé: </b></p>
                                <ul>
-                                     <li>Led the programming team.</li>
-                                     <li>Implemented system driven RPG elements.</li>
-                                     <li>Developed and implemented shader improvements and optimizations.</li>  
-                                     <li>Implemented a character animation system.</li>  
-                                     <li>Developed character creation and NPC generation.</li>  
-                                     <li>Developed and polished build mode UX.</li>  
+                                     <li>Dirigí el un equipo de 3 programadores.</li>
+                                     <li>Implemente varios sistemas de RPG.</li>
+                                     <li>Desarrollé, mejoré y optimicé los shaders base del juego.</li>  
+                                     <li>Implementé el sistema de animación de los personajes.</li>  
+                                     <li>Desarrollé un creador de personajes y NPCs.</li>  
+                                     <li>Desarrollé y pulí el sistema de construcción y su UX.</li>  
                                </ul>
-                               <p><b>Tools:</b> Unity, Unity Input System, Shadergraph, Azure Devops, Git, Visual Studio, Blender, Two Notebooks.</p>
+                               <p><b>Herramientas:</b> Unity, Unity Input System, Shadergraph, Azure Devops, Git, Visual Studio, Blender, Dos libretas.</p>
                          </div >
                    </Grid>
                    <Grid size={{ xs: 6, md: 6 }}>
@@ -75,7 +75,7 @@ export function Spanish() {
                    </Grid>
              </Grid> 
              <div className="CardFooter">
-                  <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a> <a href="https://anotherpint.williwawgames.com" target="_blank">Website</a> 
+                  <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a> <a href="https://anotherpint.williwawgames.com" target="_blank">Página web</a> 
              </div>  
        </div>     
        
@@ -83,23 +83,23 @@ export function Spanish() {
        <Divider variant="middle"/>
        
        <div className='Card'> 
-             <h2>Programmer</h2>
+             <h2>Programador Unity</h2>
              <h3>Race for the Arctic</h3>
-             <p className='italic'>May 2022 - February 2023 </p>
+             <p className='italic'>Mayo 2022 - Febrero 2023 </p>
              <Grid container>
                    <Grid size={{ xs: 6, md: 6 }}>
  
      
                          <div className="CardBody">
-                               <p>Developed by <b>Episod Studio</b>, Race for the Arctic is an immersive narrative game about exploring the Arctic in the near future.  </p>
-                               <p><b>Team size:</b> 3</p>
-                               <p><b>What I worked on: </b></p>
+                               <p>Desarrollado por <b>Episod Studio</b>, Race for the Arctic es un juego narrativo inmersivo sobre la exploración del ártico en un futuro cercano.</p>
+                               <p><b>Tamaño de equipo:</b> 3</p>
+                               <p><b>En que trabajé: </b></p>
                                <ul>
-                                     <li>Developed various camera and transition systems.</li>
-                                     <li>Developed the movement system.</li>
-                                     <li>Developed the interaction system.</li>         
+                                     <li>Desarrollé varios sistemas de camera y transiciones.</li>
+                                     <li>Desarrolle el sistema de movimiento.</li>
+                                     <li>Desarrollé el sistema de interacciones.</li>         
                                </ul>                 
-                               <p><b>Tools:</b> Unity, Shadergraph, Figma, Notion, SourceTree, Blender.</p>
+                               <p><b>Herramientas:</b> Unity, Shadergraph, Figma, Notion, SourceTree, Blender.</p>
                          </div >
                    </Grid>
                    <Grid size={{ xs: 6, md: 6 }}>
@@ -108,42 +108,31 @@ export function Spanish() {
              </Grid> 
              <p></p>
              <div className="CardFooter">
-                    <a href="https://episod.studio/games/race-for-the-arctic" target="_blank">Website</a>         
+                    <a href="https://episod.studio/games/race-for-the-arctic" target="_blank">Página web</a>         
              </div>  
        </div> 
        <p></p>
        <Divider variant="middle"/>
        <div className='Card'> 
-             <h2>Unity Developer - Freelancing</h2>
-             <p className='italic'>June 2021 - May 2022 </p>
+             <h2>Desarrollador Unity - Autónomo</h2>
+             <p className='italic'>Junio 2021 - Mayo 2022 </p>
              <Grid container>
                    <Grid size={{ xs: 12, md: 12 }}>   
                          <div className="CardBody">
-                               <p> Freelance work focused on gameplay a system development for 25 different clients.  </p>
-                               <p><b>Platforms:</b> PC | Linux | Android</p>
-                               <p><b>Tools:</b> Unity, Unity Input System, Git, Visual Studio, Blender, Firebase, Photon, Android.</p>
+                               <p> Trabajo autónomo para diversos clientes enfocado al desarrollo en Unity de mecánicas y sistemas de videojuegos. Al rededor de 25 clientes. </p>                              
+                               <p><b>Plataformas:</b> PC | Linux | Android</p>
+                               <p><b>Herramientas:</b> Unity, Unity Input System, Git, Visual Studio, Blender, Firebase, Photon, Android.</p>
                          </div>
                    </Grid>
              </Grid> 
              <div className="CardFooter">
              </div>  
        </div>
- 
-       <Divider variant="middle"/>
+
+       <Divider variant="middle"/>      
        <p> </p>
        <div className='Separator'>
-             <h2 className='Offset'>Stats</h2>    
-       </div>              
-       <p> </p>
-       <Divider variant="middle"/>     
-                 <p><b>Lenguages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
-                 <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
-                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>
-       
-       <Divider variant="middle"/>
-       <p> </p>
-       <div className='Separator'>
-             <h2 className='Offset'>Other Experiences</h2>    
+             <h2 className='Offset'>Otras experiencias</h2>    
        </div>              
        <p> </p>
        <Divider variant="middle"/>
@@ -155,12 +144,12 @@ export function Spanish() {
                    </Grid>
                    <Grid size={{ xs: 6, md: 6 }}>    
                          <div>
-                               <h2>Localization: English - Spanish</h2>
+                               <h2>Localización: Inglés - Español</h2>
                                <h3>Paradise Marsh</h3>
-                               <p className='italic'>May 2022 </p>
+                               <p className='italic'>Mayo 2022 </p>
                          </div>
                          <div className="CardBody">
-                               <p> Localization support english to spanish.</p>
+                               <p> Asistencia en la localización del Ingles al español para el juego base.</p>
                                 </div >
                    </Grid>
              </Grid> 
@@ -181,18 +170,27 @@ export function Spanish() {
                                <p className='italic'>February 2022</p>
                          </div>
                          <div className="CardBody">
-                               <p> Localization quality asurrance in english, spanish and dutch.</p>
+                               <p>Control y revision de la calidad de traducción en inglés, español y holandés.</p>
                                 </div >
                    </Grid>
              </Grid> 
              <p></p>
              <div className="CardFooter">
-                    <a href="https://www.localsoft.com" target="_blank">Website</a>         
+                    <a href="https://www.localsoft.com" target="_blank">Página web</a>         
              </div>  
        </div> 
- 
-       <p> </p>
        <Divider variant="middle"/>
+       <p> </p>
+       <div className='Separator'>
+             <h2 className='Offset'>Estadísticas</h2>    
+       </div>              
+       <p> </p>
+       <Divider variant="middle"/>     
+                 <p><b>Idiomas:</b> Español (Nativo), Inglés (Nativo), Holandés (Nativo), Italiano (B2)</p> 
+                 <p><b>Herramientas:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Papel y boli.</p>
+                 <p><b>Localización:</b> Sofia, Bulgaria | Madrid, España</p>       
+       <Divider variant="middle"/>
+       <p> </p>
        <div className='Card'> 
              <Grid container>                  
                    <Grid size={{ xs: 6, md: 6 }}>    

@@ -37,7 +37,7 @@ export function English() {
              <br></br>
             <p>
              I'm a systems programmer with (almost) 4 years of experience  with a background in environmental science.
-             My passion are videogames and variety is my flavour. I love fishing in games.
+             My passion are video games and variety is my flavour. I love fishing in games.
              </p>
        </div>
        <br></br>
@@ -128,18 +128,6 @@ export function English() {
              <div className="CardFooter">
              </div>  
        </div>
- 
-       <Divider variant="middle"/>
-       <p> </p>
-       <div className='Separator'>
-             <h2 className='Offset'>Stats</h2>    
-       </div>              
-       <p> </p>
-       <Divider variant="middle"/>     
-                 <p><b>Lenguages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
-                 <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
-                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>
-       
        <Divider variant="middle"/>
        <p> </p>
        <div className='Separator'>
@@ -160,7 +148,7 @@ export function English() {
                                <p className='italic'>May 2022 </p>
                          </div>
                          <div className="CardBody">
-                               <p> Localization support english to spanish.</p>
+                               <p> Localization support english to Spanish.</p>
                                 </div >
                    </Grid>
              </Grid> 
@@ -181,7 +169,7 @@ export function English() {
                                <p className='italic'>February 2022</p>
                          </div>
                          <div className="CardBody">
-                               <p> Localization quality asurrance in english, spanish and dutch.</p>
+                               <p> Localization quality assurance in English, Spanish and Dutch.</p>
                                 </div >
                    </Grid>
              </Grid> 
@@ -190,6 +178,22 @@ export function English() {
                     <a href="https://www.localsoft.com" target="_blank">Website</a>         
              </div>  
        </div> 
+       <Divider variant="middle"/>
+       <p> </p>
+       <div className='Separator'>
+             <h2 className='Offset'>Stats</h2>    
+       </div>              
+       <p> </p>
+       <Divider variant="middle"/>   
+            <p>
+            Born in <b>Belgium</b> and moving to <b>Spain</b> at a young age. I have been playing video games since I can remember. I have always been attracted to programming
+            having started 10 years ago tinkering with unity.
+           
+            </p>  
+                 <p><b>Languages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
+                 <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
+                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>     
+
  
        <p> </p>
        <Divider variant="middle"/>
