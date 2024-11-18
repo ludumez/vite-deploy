@@ -1,10 +1,13 @@
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
+
 
 export function AnotherPintEnglishUI() {
-  return (
-      <>     
+      return (
+            <>     
   <div className='Card'> 
              <Grid container>                  
                    <Grid size={{ xs: 6, md: 6 }}>    
@@ -26,7 +29,7 @@ export function AnotherPintEnglishUI() {
             </div>
             <br></br>
        <div className='Separator'>
-            <h2 className='Offset'>Another Pint</h2>
+            <h2 className='Offset' >Another Pint</h2>
        </div>   
        <p> </p>
         <Divider variant="middle"/>
@@ -43,8 +46,8 @@ export function AnotherPintEnglishUI() {
        </div>  
 
        <Divider variant="middle"/>
-       
-       <div className='Card'> 
+       <div id="div_id"></div>
+       <div className='Card' id="UserInterface"> 
              <h2>User Interfrace</h2>     
             <div className="CardBody">  
                   <br></br>
@@ -76,7 +79,7 @@ export function AnotherPintEnglishUI() {
                         When designing the UX I always implement a feedback on hover to indicate the UI is <b>interactable, </b>
                         on click to <b>indicate the UI has been interacted with </b> and after click, to indicate the UI <b>has done its interaction.</b>
                   </p> 
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/BlendShapeExample.gif"></img>
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/UIComponent.JPG"></img>
            
                   <p>
                   I used a Tweening library to facilitate the animations and to have more control on the timing of the animations.
@@ -88,14 +91,14 @@ export function AnotherPintEnglishUI() {
                   We also have the benefit of having all visual behaviour coming from the same input.
                   </p>
 
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/BlendShapeExample.gif"></img>
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/BlendShapeExample.gif"></img>
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/BlendShapeExample.gif"></img>
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/UIFeedbackComponent.JPG"></img>
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/ScaleOnClick.JPG"></img>
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/ScaleOnMouse.JPG"></img>
 
                   <p>
                   The main drawback of this system is that we may be sacrificing some performance by applying some unused behaviour to the components.
                  </p>
-                 <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/BlendShapeExample.gif"></img>
+                 <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/UIFeedbackGif.gif"></img>
                   <p>
                   Example of a final result with just 5 minutes of setup with this system.     
                   </p>
@@ -111,9 +114,9 @@ export function AnotherPintEnglishUI() {
                   <p>
                   I implemented a menu manager and a menu abstract component that handles the opening and closing logic of all menus.
                   </p>    
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CharacterPersonality.JPG"></img>            
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CharacterPersonality.JPG"></img>            
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CharacterPersonality.JPG"></img>            
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/UIMenuManager.JPG"></img>            
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/UIMenu.JPG"></img>            
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/MenuManagerGif.gif"></img>            
                   <br></br>
                   <p>
                   An example of easy to add behaviour to menu management thanks to the menu system.
@@ -136,8 +139,9 @@ export function AnotherPintEnglishUI() {
                    </Grid>
              </Grid> 
  
-       </div>          
- 
+       </div>   
+       <HashLink to="#UserInterface">home ashjhasd</HashLink>
+
      </>
   )
 }
