@@ -74,6 +74,8 @@ export function English() {
                          <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
                    </Grid>
              </Grid> 
+                  <p></p>
+                  <Link className='SmallButton' to='/anotherPint'>Learn More </Link>  
              <div className="CardFooter">
                   <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a> <a href="https://anotherpint.williwawgames.com" target="_blank">Website</a> 
              </div>  
@@ -184,17 +186,34 @@ export function English() {
              <h2 className='Offset'>Stats</h2>    
        </div>              
        <p> </p>
-       <Divider variant="middle"/>   
-            <p>
-            Born in <b>Belgium</b> and moving to <b>Spain</b> at a young age. I have been playing video games since I can remember. I have always been attracted to programming
-            having started 10 years ago tinkering with unity.
-           
-            </p>  
+       <Divider variant="middle"/> 
                  <p><b>Languages:</b> Spanish (Native), English (Native), Dutch (Native), Italian (B2)</p> 
                  <p><b>Tools:</b> Unity, C#, HTML, React, FMOD, ImGUI, Gitlab, Visual Studio, Blender, Shadergraph, Azure, Git, Excel, Photon, Firebase, Brain, Pen and Paper.</p>
-                 <p><b>Location:</b> Sofia, Bulgaria | Madrid, Spain</p>     
-
- 
+                 <p><b>Location:</b> Madrid, Spain</p>     
+       <p> </p>
+       <Divider variant="middle"/>
+       <p> </p>
+       <div className='Separator'>
+             <h2 className='Offset'>About Me</h2>    
+       </div>              
+       <p> </p>
+       <Divider variant="middle"/>   
+            <p>
+            I was born in Belgium and moved to Spain at a young age. I have been playing video games since I can remember, being attracted to programming more than 10 years ago. 
+            I started tinkering with Unity 5 and with GameMaker ages ago and since then I have always been thinking about making games.
+           </p> 
+           <p>
+            My professional career started 4 years ago when I decided I needed some extra cash while in University, where I began working as a freelancer first on my own and later joining a team of freelancers where we would share clients and help each other out. 
+            </p> 
+            <p>
+            I studied environmental science in the Universidad de Granada, in Spain and did a year abroad in la Sapienza Università di Roma, in Italy.
+            </p> 
+            <p>
+            I love all types of games, my favourite ones being: The Witcher 3, Steam World Dig, Cloud Gardens, My time at Sandrock and Citizen Sleeper.
+            </p> 
+            <p>
+            My hobbies include: cooking, nature, plants and space.
+            </p> 
        <p> </p>
        <Divider variant="middle"/>
        <div className='Card'> 
