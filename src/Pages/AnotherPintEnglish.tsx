@@ -1,5 +1,6 @@
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
+import { Link } from 'react-router-dom';
 
 export function AnotherPintEnglish() {
   return (
@@ -20,9 +21,13 @@ export function AnotherPintEnglish() {
       <Divider variant="middle"/>
       </div> 
        <p> </p>
+            <div className='leftHeader'>
+                  <Link className='SmallButton' to='/'>Home</Link>           
+            </div>
+            <br></br>
        <div className='Separator'>
-             <h2 className='Offset'>Another Pint</h2>
-       </div>              
+            <h2 className='Offset'>Another Pint</h2>
+       </div>   
        <p> </p>
         <Divider variant="middle"/>
        <div className='Card'>   
@@ -105,10 +110,12 @@ export function AnotherPintEnglish() {
                   <p>
                   <b>Character Instances: </b>
                   Another big benefit of this data driven approach is being able to reference these characters without them actually being in the world, which would cost more performance. 
-                  Strictly differentiating between visual data and personality makes it so that systems 
-                  can interact with our NPCs or our player without the body actually being in the world in any shape.
+                  </p>
+                  <p>
+                  Strictly differentiating between visual data and personality makes it so that <b>systems 
+                  can interact with our NPCs or our player without the body actually being in the world</b> in any shape.
                   In Another Pint other systems can request specific NPCs for story telling reasons. 
-                  With this approach it is very easy to generate a NPC on demand with a target personality without much overhead and then generate the actual body when it's needed.
+                  With this approach <b>it is very easy to generate a NPC on demand with a target personality without much overhead</b> and then generate the actual body when it's needed.
                   </p>                   
             </div>
        </div>   <Divider variant="middle"/>

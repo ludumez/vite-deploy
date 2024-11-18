@@ -181,7 +181,7 @@ button:focus-visible {
   }
   
   .leftHeader {
-    text-align: right;
+    text-align: left;
   }
   .CardHeader{
     line-height: .7;
