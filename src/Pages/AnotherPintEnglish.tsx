@@ -1,6 +1,5 @@
 import Divider from '@mui/material/Divider';
-import Grid from '@mui/material/Grid2';
-import { Link } from 'react-router-dom';
+
 
 export function AnotherPintEnglish() {
   return (
@@ -41,7 +40,7 @@ export function AnotherPintEnglish() {
                         Personality data is a bunch of values that are interpreted by other systems. 
                   </p>
             </div>
-            <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
+            <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CharacterSeparation.jpg"></img>
        </div> 
 
        <div className='Card'> 
@@ -53,13 +52,13 @@ export function AnotherPintEnglish() {
                   character can have and we save its <b>index in that list</b>. This also has the benefit of saving memory since we are saving less data.  
                   The main drawback of indexing the selected accessories is that changing the order of these in the list will change the characters aspect.
                   </p>     
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CharacterAspect.jpg"></img>
                   <p>
                   We also want to add variety to the character via body shapes. To do this we make use of the meshes <b>blend shapes</b> (or shape keys in blender). 
                   We have 3 body types which can blend two at a time.
                   Each accessory will have blend shapes that need to be individually adapted to look proper with each body type.
                   </p>                   
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/BlendShapeTest.jpg"></img>
             </div>
        </div>       
        <div className='Card'> 
@@ -68,9 +67,7 @@ export function AnotherPintEnglish() {
                   <p>
                   A Character’s personality is much easier to handle since we are only saving values that need to be interpreted by other systems.
                   </p>     
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
-                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
-                  
+                  <img className='SmallerImage' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/CharacterPersonality.jpg"></img>            
 
                   <p>
                   Once we have generated these data points we can make them accessible very easily through the UI and modify them. 
