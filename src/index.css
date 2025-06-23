@@ -14,8 +14,8 @@
 }
 
 
+.ResponsiveLink {
 
-a {
   font-weight: bold;
   text-decoration-line: underline;
   text-decoration: inherit;  
@@ -23,10 +23,11 @@ a {
   padding: 10px;
   width: 50px;
   color:white;
+
 }
 
-a:hover {
-  background-color: white;
+.ResponsiveLink:hover{
+    background-color: white;
   border-color: #000000;
   border:solid;
   border-width: 2px;
@@ -80,6 +81,7 @@ button {
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -112,7 +114,7 @@ button:focus-visible {
     border-color:#b6b6b6;
   }
   .HoverImage:hover{
-        transition: .2s;  
+    transition: .2s;  
     width: 100%;
     height: auto;
     max-width: 100%;

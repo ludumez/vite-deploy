@@ -29,8 +29,8 @@ export function English() {
 {/*----------------------------------Header--------------------------*/}
 {/*-----------------------------------------------------------------*/}
       <div className='header'>  
-            <Link className='SmallButton' to='/'>EN </Link>  
-            <Link className='SmallButton' to='/spanish'>ES</Link>  
+            <Link  className={"ResponsiveLink"}  to='/'>EN </Link>  
+            <Link  className={"ResponsiveLink"} to='/spanish'>ES</Link>  
       </div>  
       <div className='Card'> 
              <Grid container>                  
@@ -40,8 +40,8 @@ export function English() {
                    <Grid size={{ xs: 6, md: 6 }}> 
                          <p></p>
                          <div className='CardFooter'>
-                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank">   <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
-                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank">  <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
+                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
+                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
                          </div>   
                    </Grid>
              </Grid>  
@@ -90,9 +90,9 @@ export function English() {
       <div>
              <br></br>
 
-        <a  onClick={() => setSelectedTag("")}>All</a>
+        <a className={"ResponsiveLink"} onClick={() => setSelectedTag("")}>All</a>
         {allTags.map(tag => (
-          <a   key={tag} onClick={() => setSelectedTag(tag)}>
+          <a className={"ResponsiveLink"} key={tag} onClick={() => setSelectedTag(tag)}>
             {tag}
           </a>
         ))}
