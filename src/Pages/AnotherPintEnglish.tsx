@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 export function AnotherPintEnglish() {
   return (
       <>     
-  <div className='Card'> 
+      <div className='Card'> 
              <Grid container>                  
                    <Grid size={{ xs: 6, md: 6 }}>    
                    <p>ludumez@hotmail.com</p>
@@ -19,23 +19,67 @@ export function AnotherPintEnglish() {
                          </div>   
                    </Grid>
              </Grid>  
+      </div>
+
+{/*------------------------------------------------------------------*/}
+{/*----------------------------------Home--------------------------*/}
+{/*-----------------------------------------------------------------*/}
       <Divider variant="middle"/>
-      </div> 
+      <p></p>
+      <Link className='SmallButton' to='/'>Home</Link>  
+      <p></p>
+      <Divider variant="middle"/>
+
+
+{/*------------------------------------------------------------------*/}
+{/*----------------------------------Body--------------------------*/}
+{/*-----------------------------------------------------------------*/}
+        <Divider variant="middle"/>
        <p> </p>
-            <div className='leftHeader'>
-                  <Link className='SmallButton' to='/'>Home</Link>           
-            </div>
-            <br></br>
        <div className='Separator'>
-            <h2 className='Offset'>Another Pint</h2>
-       </div>   
+             <h2 className='Offset'>Another Pint</h2>
+       </div>              
        <p> </p>
         <Divider variant="middle"/>
+       <div className='Card'>   
+             <h2>Lead Systems Programmer</h2>
+             <h3>Another Pint</h3>
+             <p className='italic'>February 2023 - October 2024</p>
+             <Grid container>
+                   <Grid size={{ xs: 6, md: 6 }}>           
+                         <div className="CardBody">
+                               <p> Developed by <b>Williwaw Games</b>, Another Pint is a dynamic management game where you get to build and run your own medieval tavern. Tasked with taking over a barebones shack, where you take it is up to you.  </p>
+                               <p><b>Team size:</b> 9</p>
+                               <p><b>What I worked on: </b></p>
+                               <ul>
+                                     <li>Led the programming team.</li>
+                                     <li>Implemented system driven RPG elements.</li>
+                                     <li>Developed and implemented shader improvements and optimizations.</li>  
+                                     <li>Implemented a character animation system.</li>  
+                                     <li>Developed character creation and NPC generation.</li>  
+                                     <li>Developed and polished build mode UX.</li>  
+                                     <li>Many many more things.</li>  
+                               </ul>
+                               <p><b>Tools:</b> Unity, Unity Input System, Shadergraph, Azure Devops, Git, Visual Studio, Blender, Two Notebooks.</p>
+                         </div >
+                   </Grid>
+                   <Grid size={{ xs: 6, md: 6 }}>
+                         <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg"></img>
+                   </Grid>
+             </Grid> 
+                  <p></p>
+             <div className="CardFooter">
+                  <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a> <a href="https://anotherpint.williwawgames.com" target="_blank">Website</a> 
+             </div>  
+       </div> 
+       <p> </p>
+      <Divider variant="middle"/>
+
        <div className='Card'>   
             <div className="CardBody">
                   <p>
                   Another Pint is currently under development, which means, i’m <b>not allowed to disclose any actual game screenshots or code that is used in the game. </b>
-                  As such, in this page I will go over all the systems I took ownership of for Another Pint but wont show any real game examples. 
+                  As such, in this page I will go over some of the systems I took ownership of for Another Pint but wont show any real game examples. 
                   </p>
                   <p>
                   These are all <b>recreations and explanations</b> coming out of memory and experience.

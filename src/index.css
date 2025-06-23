@@ -102,14 +102,22 @@ button:focus-visible {
 
 
   img{
-    width: 100%;
+    width: 97%;
     height: auto;
     max-width: 100%;
     object-fit: cover; /* Ensure scaling fits the container */
     border-style: solid;
-    border-width: 2px ;
+    border-width: 1px ;
     border-radius: 3px;
+    border-color:#b6b6b6;
   }
+  .HoverImage:hover{
+        transition: .2s;  
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
 
   li{    
     text-indent: -4px;
@@ -249,6 +257,7 @@ button:focus-visible {
   }
   .SmallButton:hover{
     padding: 3px;
+    
   }
 
   .SmallerImage{
