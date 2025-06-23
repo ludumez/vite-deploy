@@ -5,7 +5,7 @@ import { useState } from "react";
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 const images = [
-      {id: 1, src: "https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg", tags: ["Programmer"], to:'/AnotherPint'},//Another Pint
+      {id: 1, src: "https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg", tags: ["Programmer"], to:'AnotherPint'},//Another Pint
       {id: 6, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2726060/26e8c16f3cbb5a458b60ffd663571d8fa06c724d/header.jpg?t=1748530564", tags: ["Programmer"]},//Fable Hospital
       {id: 4, src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3NblPFnmICGgAddAi41HRO0rgsSzkdjDhg&s", tags: ["QA"]},//Elf on the Shelf
       {id: 3, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978210/header.jpg?t=1701706239", tags: ["QA"]},//Grinch
