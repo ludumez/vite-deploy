@@ -1,10 +1,8 @@
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
-import { Document, Page, pdfjs } from 'react-pdf';
 
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export function UnannouncedOG() {
   return (
@@ -69,10 +67,6 @@ export function UnannouncedOG() {
        </div> 
        <p> </p>
 
-      <Document file="/assets/Lukas Dumez. CV..pdf">
-          <Page pageNumber={1} />
-      </Document>
-             hi
 {/*------------------------------------------------------------------*/}
 {/*----------------------------------Footer--------------------------*/}
 {/*-----------------------------------------------------------------*/}
