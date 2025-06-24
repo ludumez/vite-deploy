@@ -14,8 +14,8 @@ export function AnotherPintEnglish() {
                    <Grid size={{ xs: 6, md: 6 }}> 
                          <p></p>
                          <div className='CardFooter'>
-                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank">   <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
-                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank">  <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
+                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
+                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
                          </div>   
                    </Grid>
              </Grid>  
@@ -26,7 +26,7 @@ export function AnotherPintEnglish() {
 {/*-----------------------------------------------------------------*/}
       <Divider variant="middle"/>
       <p></p>
-      <Link className='SmallButton' to='/'>Home</Link>  
+      <Link  className={"ResponsiveLink"}  to='/'>Home</Link>  
       <p></p>
       <Divider variant="middle"/>
 
@@ -69,7 +69,8 @@ export function AnotherPintEnglish() {
              </Grid> 
                   <p></p>
              <div className="CardFooter">
-                  <a href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a> <a href="https://anotherpint.williwawgames.com" target="_blank">Website</a> 
+                  <a  className={"ResponsiveLink"} href="https://store.steampowered.com/app/3150160/Another_Pint/" target="_blank">Steam</a> 
+                  <a  className={"ResponsiveLink"} href="https://anotherpint.williwawgames.com" target="_blank">Website</a> 
              </div>  
        </div> 
        <p> </p>
@@ -499,8 +500,8 @@ export function AnotherPintEnglish() {
                    <Grid size={{ xs: 6, md: 6 }}> 
                          <p></p>
                          <div className='CardFooter'>
-                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank">   <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
-                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank">  <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
+                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
+                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
                          </div>   
                    </Grid>
              </Grid> 

@@ -1,8 +1,12 @@
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
+import { Document, Page, pdfjs } from 'react-pdf';
 
-export function BratzRythmAndStyle() {
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+export function UnannouncedOG() {
   return (
       <>     
   <div className='Card'> 
@@ -34,22 +38,20 @@ export function BratzRythmAndStyle() {
 {/*-----------------------------------------------------------------*/}
        <p> </p>
        <div className='Separator'>
-             <h2 className='Offset'>Bratz Rythm And Style</h2>
+             <h2 className='Offset'>To be announced</h2>
        </div>              
        <p> </p>
         <Divider variant="middle"/>
        <div className='Card'>   
-             <h2>FQA with aditional LQA support</h2>
-             <p className='italic'>12 September, 2025</p>
+             <h2>FQA with additional LQA support</h2>
+             <p className='italic'>To be announced</p>
              <Grid container>
                    <Grid size={{ xs: 6, md: 6 }}>           
                          <div className="CardBody">
-                               Rule the runway and take the stage with the Bratz Pack! Customize fierce fashions, 
-                               groove to songs from the Bratz Universe like ‘So Good’, and jet off to iconic cities. 
-                               Outshine mean Burdine and the Tweevil Twins in epic fashion battles—solo or with friends. 
+                               A soon to be announced game published by outright games.
                                <p><b>What I worked on: </b></p>
                                <ul>
-                                     <li>Provided FQA for the full release of the game.</li>
+                                     <li>Provided FQA for the full release of their next update.</li>
                                      <li>Helped QA meets deadlines for full release on <b>Nintendo Switch, Xbox Series and One and Playstation 4 and 5. </b></li>
                                      <li>Leveraged my language skill to give additional LQA support in <b>English, Spanish, Dutch, French, German and Chinese.</b></li>
   
@@ -58,16 +60,19 @@ export function BratzRythmAndStyle() {
                          </div >
                    </Grid>
                    <Grid size={{ xs: 6, md: 6 }}>
-                         <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212580/e191789d5852ed5c2c27183888ca58017b5378fb/header.jpg?t=1750407348"></img>
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3NblPFnmICGgAddAi41HRO0rgsSzkdjDhg&s"></img>
                    </Grid>
              </Grid> 
                   <p></p>
              <div className="CardFooter">
-                  <a  className={"ResponsiveLink"} href="https://store.steampowered.com/app/3212580/Bratz_Rhythm__Style/" target="_blank">Steam</a>
              </div>  
        </div> 
        <p> </p>
-             
+
+      <Document file="/assets/Lukas Dumez. CV..pdf">
+          <Page pageNumber={1} />
+      </Document>
+             hi
 {/*------------------------------------------------------------------*/}
 {/*----------------------------------Footer--------------------------*/}
 {/*-----------------------------------------------------------------*/}

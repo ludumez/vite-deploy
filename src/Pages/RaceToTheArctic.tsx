@@ -2,7 +2,7 @@ import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
 
-export function BratzRythmAndStyle() {
+export function RaceToTheArctic() {
   return (
       <>     
   <div className='Card'> 
@@ -34,36 +34,38 @@ export function BratzRythmAndStyle() {
 {/*-----------------------------------------------------------------*/}
        <p> </p>
        <div className='Separator'>
-             <h2 className='Offset'>Bratz Rythm And Style</h2>
+             <h2 className='Offset'>Race For The Arctic</h2>
        </div>              
        <p> </p>
         <Divider variant="middle"/>
        <div className='Card'>   
-             <h2>FQA with aditional LQA support</h2>
-             <p className='italic'>12 September, 2025</p>
+             <h2>Programmer</h2>
+             <p className='italic'>May 2022 - February 2023</p>
              <Grid container>
                    <Grid size={{ xs: 6, md: 6 }}>           
                          <div className="CardBody">
-                               Rule the runway and take the stage with the Bratz Pack! Customize fierce fashions, 
-                               groove to songs from the Bratz Universe like ‘So Good’, and jet off to iconic cities. 
-                               Outshine mean Burdine and the Tweevil Twins in epic fashion battles—solo or with friends. 
-                               <p><b>What I worked on: </b></p>
-                               <ul>
-                                     <li>Provided FQA for the full release of the game.</li>
-                                     <li>Helped QA meets deadlines for full release on <b>Nintendo Switch, Xbox Series and One and Playstation 4 and 5. </b></li>
-                                     <li>Leveraged my language skill to give additional LQA support in <b>English, Spanish, Dutch, French, German and Chinese.</b></li>
-  
-                               </ul>
-                               <p><b>Tools:</b> Jira, Teams, Xbox One and Series, Nintendo Switch, PlayStation 4 and 5, Steam.</p>
+
+                              Developed by Episod Studio, Race for the Arctic is an 
+                              immersive narrative game about exploring the Arctic in the near future.
+                              
+                              <p>Team size: 3</p>
+                             
+                              <p><b>What I worked on: </b></p>
+                              <ul>
+                                    <li> Developed various camera and transition systems..</li>
+                                    <li> Developed the movement system.</li>
+                                    <li> Developed the interaction system.</li>
+                              </ul>
+                              <p><b>Tools:</b> Unity, Shadergraph, Figma, Notion, SourceTree, Blender.</p>
                          </div >
                    </Grid>
                    <Grid size={{ xs: 6, md: 6 }}>
-                         <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212580/e191789d5852ed5c2c27183888ca58017b5378fb/header.jpg?t=1750407348"></img>
+                         <img src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/RaceForTheArcticCaptura.jpg"></img>
                    </Grid>
              </Grid> 
                   <p></p>
              <div className="CardFooter">
-                  <a  className={"ResponsiveLink"} href="https://store.steampowered.com/app/3212580/Bratz_Rhythm__Style/" target="_blank">Steam</a>
+                  <a  className={"ResponsiveLink"} href="https://www.episod.studio/race-for-the-arctic" target="_blank">Website</a>
              </div>  
        </div> 
        <p> </p>

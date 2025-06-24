@@ -6,12 +6,12 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 const images = [
       {id: 1, src: "https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/AnotherPint.jpg", tags: ["Programmer"], to:'AnotherPint'},//Another Pint
-      {id: 6, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2726060/26e8c16f3cbb5a458b60ffd663571d8fa06c724d/header.jpg?t=1748530564", tags: ["Programmer"]},//Fable Hospital
-      {id: 4, src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3NblPFnmICGgAddAi41HRO0rgsSzkdjDhg&s", tags: ["QA"]},//Elf on the Shelf
-      {id: 3, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978210/header.jpg?t=1701706239", tags: ["QA"]},//Grinch
-      {id: 5, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212580/e191789d5852ed5c2c27183888ca58017b5378fb/header.jpg?t=1750407348", tags: ["QA"]},//Bratz
-      {id: 7, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709170/header.jpg?t=1726417223", tags: ["Other"]},//Paradise Marsh
-      {id: 2, src: "https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/RaceForTheArcticCaptura.jpg", tags: ["Programmer"]},//Race to the Arctic
+      {id: 6, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2726060/26e8c16f3cbb5a458b60ffd663571d8fa06c724d/header.jpg?t=1748530564", tags: ["Programmer"], to:'FableHospital'},//Fable Hospital
+      {id: 4, src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3NblPFnmICGgAddAi41HRO0rgsSzkdjDhg&s", tags: ["QA"], to:'Unnanounced'},//Elf on the Shelf
+      {id: 3, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978210/header.jpg?t=1701706239", tags: ["QA"], to:'TheGrinch'},//Grinch
+      {id: 5, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212580/e191789d5852ed5c2c27183888ca58017b5378fb/header.jpg?t=1750407348", tags: ["QA"], to:'BratzRythmAndStyle'},//Bratz
+      {id: 7, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709170/header.jpg?t=1726417223", tags: ["Other"], to:'ParadiseMarsh'},//Paradise Marsh
+      {id: 2, src: "https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/RaceForTheArcticCaptura.jpg", tags: ["Programmer"], to:'RaceToTheArctic'},//Race to the Arctic
 ];
 
 const allTags = ["Programmer","QA","Other"];
@@ -126,8 +126,8 @@ export function English() {
                    <Grid size={{ xs: 6, md: 6 }}> 
                          <p></p>
                          <div className='CardFooter'>
-                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank">   <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
-                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank">  <img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
+                               <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
+                               <a className='aIcon'href="mailto:ludumez@hotmail.com" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/email.jpg"></img></a>
                          </div>   
                    </Grid>
              </Grid> 

@@ -2,7 +2,7 @@ import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
 
-export function BratzRythmAndStyle() {
+export function TheGrinch() {
   return (
       <>     
   <div className='Card'> 
@@ -34,22 +34,22 @@ export function BratzRythmAndStyle() {
 {/*-----------------------------------------------------------------*/}
        <p> </p>
        <div className='Separator'>
-             <h2 className='Offset'>Bratz Rythm And Style</h2>
+             <h2 className='Offset'>The Grinch: Christmas Adventure. Update.</h2>
        </div>              
        <p> </p>
         <Divider variant="middle"/>
        <div className='Card'>   
-             <h2>FQA with aditional LQA support</h2>
-             <p className='italic'>12 September, 2025</p>
+             <h2>FQA</h2>
+             <p className='italic'>To be announced</p>
              <Grid container>
                    <Grid size={{ xs: 6, md: 6 }}>           
                          <div className="CardBody">
-                               Rule the runway and take the stage with the Bratz Pack! Customize fierce fashions, 
-                               groove to songs from the Bratz Universe like ‘So Good’, and jet off to iconic cities. 
-                               Outshine mean Burdine and the Tweevil Twins in epic fashion battles—solo or with friends. 
+                               The Grinch has had a wonderful, awful idea – steal all the presents in Who-ville, using gadgets like his stealthy Santa costume
+                               and Candy Cane Lasso. Help him sneak around, freeze creatures with snowballs, 
+                               and learn the meaning of Christmas along the way, in this festive platformer! 
                                <p><b>What I worked on: </b></p>
                                <ul>
-                                     <li>Provided FQA for the full release of the game.</li>
+                                     <li>Provided FQA for the full release of their next update.</li>
                                      <li>Helped QA meets deadlines for full release on <b>Nintendo Switch, Xbox Series and One and Playstation 4 and 5. </b></li>
                                      <li>Leveraged my language skill to give additional LQA support in <b>English, Spanish, Dutch, French, German and Chinese.</b></li>
   
@@ -58,12 +58,12 @@ export function BratzRythmAndStyle() {
                          </div >
                    </Grid>
                    <Grid size={{ xs: 6, md: 6 }}>
-                         <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212580/e191789d5852ed5c2c27183888ca58017b5378fb/header.jpg?t=1750407348"></img>
+                         <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978210/header.jpg?t=1701706239"></img>
                    </Grid>
              </Grid> 
                   <p></p>
              <div className="CardFooter">
-                  <a  className={"ResponsiveLink"} href="https://store.steampowered.com/app/3212580/Bratz_Rhythm__Style/" target="_blank">Steam</a>
+                  <a  className={"ResponsiveLink"} href="https://store.steampowered.com/app/1978210/The_Grinch_Christmas_Adventures/" target="_blank">Steam</a>
              </div>  
        </div> 
        <p> </p>
