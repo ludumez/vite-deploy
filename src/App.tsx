@@ -9,6 +9,7 @@ import { UnannouncedOG } from './Pages/OutrightGamesUnnanounced.tsx'
 import { RaceToTheArctic } from './Pages/RaceToTheArctic.tsx'
 import { ParadiseMarsh } from './Pages/ParadiseMarsh.tsx'
 import { FableHospital } from './Pages/FableHospital.tsx'
+import { ItCouldBeWetter } from './Pages/ItCouldBeWetter.tsx'
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='RaceToTheArctic' element={<RaceToTheArctic />} />
       <Route path='ParadiseMarsh' element={<ParadiseMarsh />} />
       <Route path='FableHospital' element={<FableHospital />} />
+      <Route path='ItCouldBeWetter' element={<ItCouldBeWetter />} />
     </Routes>
   );
 }

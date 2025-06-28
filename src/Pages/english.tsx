@@ -10,8 +10,9 @@ const images = [
       {id: 2, src: "https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/RaceForTheArcticCaptura.jpg", tags: ["Programmer"], to:'RaceToTheArctic'},//Race to the Arctic
       {id: 3, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978210/header.jpg?t=1701706239", tags: ["QA"], to:'TheGrinch'},//Grinch
       {id: 5, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3212580/e191789d5852ed5c2c27183888ca58017b5378fb/header.jpg?t=1750407348", tags: ["QA"], to:'BratzRythmAndStyle'},//Bratz
-      {id: 7, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709170/header.jpg?t=1726417223", tags: ["Other"], to:'ParadiseMarsh'},//Paradise Marsh
       {id: 4, src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3NblPFnmICGgAddAi41HRO0rgsSzkdjDhg&s", tags: ["QA"], to:'Unnanounced'},//Elf on the Shelf
+      {id: 8, src: "https://img.itch.zone/aW1nLzIxODk1NTc1LnBuZw==/original/5jwl0K.png", tags: ["Programmer"], to:'ItCouldBeWetter'},//It could be wetter
+      {id: 7, src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1709170/header.jpg?t=1726417223", tags: ["Other"], to:'ParadiseMarsh'},//Paradise Marsh
 ];
 
 const allTags = ["Programmer","QA","Other"];
@@ -37,7 +38,7 @@ export function English() {
                    <Grid size={{ xs: 6, md: 6 }}>    
                    <p>ludumez@hotmail.com</p>
                    </Grid>  
-                   <Grid size={{ xs: 6, md: 6 }}> 
+                   <Grid size={{ xs: 2, md: 2 }}> 
                          <p></p>
                          <div className='CardFooter'>
                                <a className='aIcon' href="https://www.linkedin.com/in/lukas-dumez-988a1a234/" target="_blank"><img className='Icon' src="https://raw.githubusercontent.com/ludumez/vite-deploy/refs/heads/main/src/assets/linkedin.jpg"></img></a>
@@ -45,8 +46,8 @@ export function English() {
                          </div>   
                    </Grid>
              </Grid>  
-      <Divider variant="middle"/>
       </div> 
+      <Divider variant="middle"/>
 
 
 {/*------------------------------------------------------------------*/}
