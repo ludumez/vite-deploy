@@ -10,6 +10,7 @@ import { RaceToTheArctic } from './Pages/RaceToTheArctic.tsx'
 import { ParadiseMarsh } from './Pages/ParadiseMarsh.tsx'
 import { FableHospital } from './Pages/FableHospital.tsx'
 import { ItCouldBeWetter } from './Pages/ItCouldBeWetter.tsx'
+import { Coasterama } from './Pages/Coasterama.tsx'
 
 
 
@@ -18,7 +19,7 @@ function App() {
   return (
     <Routes>
        <Route path='/' element={<English />} />
-      <Route path='spanish' element={<Spanish />} />
+      <Route path='coasterama' element={<Coasterama />} />
       <Route path='anotherPint' element={<AnotherPintEnglish />} />
       <Route path='anotherPintUI' element={<AnotherPintEnglishUI />} />
       <Route path='BratzRythmAndStyle' element={<BratzRythmAndStyle />} />
