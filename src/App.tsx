@@ -1,6 +1,5 @@
 import {  Routes,Route } from 'react-router-dom'
 import {English} from './Pages/english.tsx'
-import {Spanish} from './Pages/spanish.tsx'
 import {AnotherPintEnglish} from './Pages/AnotherPintEnglish.tsx'
 import { AnotherPintEnglishUI } from './Pages/AnotherPintEnglishUI.tsx'
 import { BratzRythmAndStyle } from './Pages/BratzRythmAndStyle.tsx'
