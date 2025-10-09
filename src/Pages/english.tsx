@@ -18,9 +18,7 @@ const allTags = ["Programmer", "QA", "Other"];
 
 export function English() {
 
-      const [selectedTag, setSelectedTag] = useState("");
 
-      const filteredImages = selectedTag ? images.filter(img => img.tags.includes(selectedTag)) : images;
 
       return (
             <>
