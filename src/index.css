@@ -32,7 +32,7 @@ body {
 
 
 #root {
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
@@ -44,7 +44,7 @@ body {
 
 .headerContainer {
   padding-top: 1%;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 .container {
@@ -89,24 +89,25 @@ a:hover {
 }
 
 .title {
-  font-size: 5.2rem;
+  font-size: 3.2rem;
   font-weight: bold;
   line-height: .7em;
   color: rgb(24, 24, 24);
 }
 
 .smallTitle {
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   color: rgb(24, 24, 24);
   margin: 0;
 }
 
 .DescriptionText {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 1.5em;
   color: rgb(24, 24, 24);
   padding-left: 3%;
   padding-right: 3%;
+  margin-top: 0px;
 }
 
 
@@ -135,7 +136,7 @@ a:hover {
 .big-img {
   display: inline-block;
   width: 100%;
-  max-height: 370px;
+  max-height: 240px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -145,7 +146,7 @@ a:hover {
 }
 
 .subtitle {
-  font-size: 2.2rem;
+  font-size: 1.8em;
   color: #D97D55;
 }
 
