@@ -1,7 +1,6 @@
 import Grid from '@mui/material/Grid2';
 import Box from '@mui/material/Box';
-
-
+import { Link } from 'react-router-dom';
 export function English() {
 
 
@@ -23,8 +22,8 @@ export function English() {
                                     <div className="subtitle">Mid/Senior Unity Developer</div>
                               </div>
                               <div className="shortcuts-block">
-                                    <a>Home</a>
-                                    <a>Articles</a>
+                                    <Link to={'/'} className="shortcutLink">Home</Link>
+                                    <Link to={'/articles'} className="shortcutLink">Articles</Link>
                                     <a>About</a>
                               </div>
                         </div>

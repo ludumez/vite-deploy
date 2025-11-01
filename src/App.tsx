@@ -10,6 +10,8 @@ import { ParadiseMarsh } from './Pages/ParadiseMarsh.tsx'
 import { FableHospital } from './Pages/FableHospital.tsx'
 import { ItCouldBeWetter } from './Pages/ItCouldBeWetter.tsx'
 import { Coasterama } from './Pages/Coasterama.tsx'
+import { FlowField } from './Pages/FKCFlowField.tsx'
+import { Articles } from './Pages/Articles.tsx'
 
 
 
@@ -17,8 +19,10 @@ import { Coasterama } from './Pages/Coasterama.tsx'
 function App() {
   return (
     <Routes>
-       <Route path='/' element={<English />} />
+      <Route path='/' element={<English />} />
       <Route path='coasterama' element={<Coasterama />} />
+      <Route path='flowField' element={<FlowField />} />
+      <Route path='articles' element={<Articles />} />
       <Route path='anotherPint' element={<AnotherPintEnglish />} />
       <Route path='anotherPintUI' element={<AnotherPintEnglishUI />} />
       <Route path='BratzRythmAndStyle' element={<BratzRythmAndStyle />} />
